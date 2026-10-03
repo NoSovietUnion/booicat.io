@@ -1,0 +1,12 @@
+.github-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  color: #2d2343;
+  text-decoration: none;
+  font-size: 1.5rem;
+}

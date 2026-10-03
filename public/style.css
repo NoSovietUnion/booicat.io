@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: "Comic Sans MS", "Comic Neue", cursive;
+  background: linear-gradient(135deg, #9bb7ff 0%, #c4b5ff 55%, #d9d0ff 100%);
+  color: #1d1a2d;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.container {
+  width: min(700px, 90vw);
+  background: rgba(255, 255, 255, 0.35);
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(81, 65, 131, 0.2);
+  padding: 40px 30px;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: #2f2852;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.6);
+}
+
+.bio-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d2343;
+  margin-bottom: 18px;
+}
+
+.bio {
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: #2c2540;
+}
+
+.bio p {
+  margin: 12px 0;
+}
+
+copyright {
+  display: block;
+  margin-top: 18px;
+  font-weight: bold;
+  color: #41375e;
+}
+
+a {
+  display: inline-block;
+  margin-top: 14px;
+  color: #4b2e8d;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.github-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 52px;
+  height: 52px;
+  margin-top: 18px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  color: #2d2343;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.github-btn:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.55);
+}

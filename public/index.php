@@ -6,16 +6,8 @@ header("Content-Type: text/html; charset=UTF-8");
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Black Screen</title>
-  <style>
-    html, body {
-      margin: 0;
-      width: 100%;
-      height: 100%;
-      background: #000;
-      overflow: hidden;
-    }
-  </style>
+  <title>booicat.io</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body></body>
 </html>
